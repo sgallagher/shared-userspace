@@ -42,8 +42,7 @@ python2-oslo-cache-tests-0:1.14.0-3.fc26.noarch
 
 It is required by a couple of packages as a build requirement:
 
-#> dnf repoquery -q --enablerepo fedora-source --releasever 26 --arch src \
-#      --whatrequires python-pymongo
+#> dnf repoquery -q --enablerepo fedora-source --releasever 26 --arch src --whatrequires python-pymongo
 
 mongodb-0:3.4.3-1.fc26.src
 python-kombu-1:4.0.2-4.fc26.src
