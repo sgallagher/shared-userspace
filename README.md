@@ -1,4 +1,4 @@
-# DHCP Client module
+# shared-userspace module
 
 [**Package DB** (owner)](https://admin.fedoraproject.org/pkgdb/package/modules/shared-userspace/) |
 [**F26 modulemd** (source)](http://pkgs.fedoraproject.org/cgit/modules/shared-userspace.git/tree/shared-userspace.yaml?h=f26) |
