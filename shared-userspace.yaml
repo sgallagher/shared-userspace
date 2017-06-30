@@ -268,7 +268,7 @@ data:
             - polkit
             - poppler
             - poppler-data
-            - pulseaudio
+            #- pulseaudio
             - python-pymongo
             - python-rhsm
             - python2
@@ -330,6 +330,7 @@ data:
             - boost-mpich-python
             - fipscheck-devel
             - fontpackages-devel
+            - freeglut-devel
             - fontpackages-tools
             - ghostscript-doc
             - ghostscript-gtk
@@ -376,6 +377,10 @@ data:
             - libtool-ltdl-devel
             - libXxf86vm-devel
             - lynx
+            - mesa-libEGL
+            - mesa-libEGL-devel
+            - mesa-libGL-devel
+            - mesa-libgbm
             - mesa-vulkan-devel
             - mozjs17-devel
             - openjpeg2-devel
@@ -399,10 +404,12 @@ data:
             - openssh-ldap
             - openssh-server
             - pango-tests
+            - pango-devel
             - perl-Git-SVN
             - perl-Test-Pod-Coverage
             - policycoreutils-gui
             - policycoreutils-python
+            - policycoreutils-python3
             - policycoreutils-sandbox
             - poppler-cpp
             - poppler-cpp-devel
@@ -415,7 +422,10 @@ data:
             - poppler-qt5
             - poppler-qt5-devel
             - poppler-qt-devel
+            - pprof
+            - pulseaudio
             - pulseaudio-gdm-hooks
+            - pulseaudio-libs
             - pulseaudio-module-bluetooth
             - pulseaudio-module-gconf
             - pulseaudio-module-jack
@@ -432,13 +442,17 @@ data:
             - satyr-python3
             - selinux-policy-doc
             - selinux-policy-mls
+            - systemtap-devel
             - systemtap-testsuite
             - systemtap-initscript
+            - systemtap-runtime
             - systemtap-runtime-java
+            - systemtap-runtime-virthost
             - systemtap-server
             # texinfo
             - texinfo-tex
             - util-linux-user
+            - vala
             - vala-doc
             - valgrind-openmpi
             - vulkan-devel
